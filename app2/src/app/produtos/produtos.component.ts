@@ -68,6 +68,10 @@ export class ProdutosComponent implements OnInit, OnDestroy {
     this.subjectPesquisa.next(termoDaBusca)
   }
 
+  limpaPesquisa(): void {
+    this.subjectPesquisa.next('')
+  }
+
   ngOnDestroy(){
 
   }

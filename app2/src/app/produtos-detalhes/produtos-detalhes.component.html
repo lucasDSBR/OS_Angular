@@ -23,7 +23,7 @@
               <div class="card">
                 <div class="m-2">
                   <p>Preço Unit.: </p>
-                  <b style="font-size:25px; color: #1cc88a;">R${{ produto.preco }}</b>
+                  <b style="font-size:25px; color: #1cc88a;">{{ produto.preco | currency: 'BRL': true }}</b>
                 </div>
               </div>
             </div>
