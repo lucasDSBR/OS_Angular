@@ -1,0 +1,10 @@
+.card{
+    background-color:#fff;
+    color: #fff;
+}
+h4, p{
+    color: #343a40;
+}
+.preco{
+    color:green;
+}
