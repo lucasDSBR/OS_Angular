@@ -1,0 +1,64 @@
+<div class="container">
+  <a type="button" class="btn btn-outline-danger m-3" href="/usuarios">Voltar</a>
+  <div class="card mb-5" *ngIf="usuario !== undefined">
+    <div class="card-header">
+      <p class="m-2"><b>Dados do Usuario:</b></p>
+    </div>
+    <div class="card-body">
+      <div class="row mb-4">
+        <!--Imagem caso tenha-->
+        <div class="col-4">
+          <img src="" class="rounded float-start" alt="...">
+        </div>
+        <div class="col">
+          <h2 class="mb-4">{{ usuario.nome }}</h2>
+          <div class="row mb-4">
+            <div class="col">
+              <div class="card">
+                <div class="card-header">
+                  <p class="m-2"><b>Dados de acesso:</b></p>
+                </div>
+                <div class="m-2">
+                  <p><b>Usuario</b>: {{usuario.usuario}} </p>
+                  <p><b>Email</b>: {{usuario.email}} </p>
+                  <p><b>Senha</b>: {{senhavisivel == false? "*******" : usuario.pass}} <button type="button" class="btn btn-primary btn-sm ml-3" (click)="visualizarSenha()">Visualizar</button></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-header">
+                  <p class="m-2"><b>Situação:</b></p>
+                </div>
+                <div class="m-2 text-center">
+                  <b style="font-size:25px;">{{ usuario.ativo == true? "ATIVO" : "DESATIVO" }}</b>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">
+              <p class="m-2"><b>Endereço:</b></p>
+            </div>
+            <div class="m-2">
+              <p><b>Rua</b>: {{ usuario.rua }} </p>
+              <p><b>Cidade</b>: {{ usuario.cidade }} </p>
+              <p><b>CEP</b>: {{ usuario.cep }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h4 class="text-center">Opções</h4>
+      <hr/>
+      <div class="row justify-content-md-center">
+        <button type="button" class="btn btn-outline-primary m-3">Editar</button>
+        <button type="button" class="btn btn-outline-danger m-3">Excluir</button>
+      </div>
+    </div>
+  </div>
+</div>

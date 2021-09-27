@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="row m-3">
+    <div class="col-2">
+      <select id="categoria" class="form-control form-control-sm">
+        <option value="1">Ativo</option>
+        <option value="0">Desativado</option>
+      </select>
+    </div>
+    <div class="col">
+      <button type="button" class="btn btn-outline-success" (click)="Situcao()">Buscar</button>
+    </div>
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">Nome</th>
+        <th scope="col">E-mail</th>
+        <th scope="col">Status</th>
+        <th scope="col">Opções</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let usuario of usuarios">
+        <th scope="row"><img src="..." class="rounded mx-auto d-block" alt="..."></th>
+        <td>{{usuario.nome}}</td>
+        <td>{{usuario.email}}</td>
+        <td>{{usuario.ativo == false? 'Desativo': 'Ativo'}}</td>
+        <td>
+          <a [routerLink]="['/usuarios-detalhes', usuario.id]" class="btn btn-outline-primary">Detalhes</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+</div>

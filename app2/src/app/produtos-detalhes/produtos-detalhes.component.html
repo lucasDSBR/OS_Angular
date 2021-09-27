@@ -1,0 +1,41 @@
+<div class="container mt-3">
+  <a type="button" class="btn btn-outline-danger m-3" href="/produtos">Voltar</a>
+  <div class="card" *ngIf="produto !== undefined">
+    <div class="card-body">
+      <div class="row mb-4">
+        <!--Imagem caso tenha-->
+        <div class="col-4">
+          <img src="../../assets/ofertas/1/img1.jpg" class="rounded float-start" alt="...">
+        </div>
+        <div class="col">
+          <h2>{{ produto.nome }}</h2>
+          <p>{{ produto.descricao == ""? "Sem descrção": produto.descricao}}</p>
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <div class="m-2">
+                  <p>Quantidade em estoque: </p>
+                  <b style="font-size:25px;">{{ produto.quantidade_estoque }}</b>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="m-2">
+                  <p>Preço Unit.: </p>
+                  <b style="font-size:25px; color: #1cc88a;">R${{ produto.preco }}</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h4 class="text-center">Opções</h4>
+      <hr/>
+      <div class="row justify-content-md-center">
+        <button type="button" class="btn btn-outline-primary m-3">Editar</button>
+        <button type="button" class="btn btn-outline-danger m-3">Excluir</button>
+      </div>
+    </div>
+  </div>
+</div>
