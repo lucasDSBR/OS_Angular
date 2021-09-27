@@ -11,6 +11,9 @@
       #termoDaPesquisa
       (keyup)="pesquisaProduto(termoDaPesquisa.value)"
       >
+      <ul class="list-group" style="position: absolute; z-index: 1;">
+        <li class="list-group-item" *ngFor="let produto of produtosSeach">{{produto.nome}}</li>
+      </ul>
     </div>
     <div class="col md-2">
       
