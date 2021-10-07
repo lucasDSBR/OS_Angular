@@ -37,4 +37,5 @@ export class UsuariosDetalhesComponent implements OnInit {
   visualizarSenha(){
     this.senhavisivel = true;
   }
+
 }

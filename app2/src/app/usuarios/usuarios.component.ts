@@ -34,6 +34,10 @@ export class UsuariosComponent implements OnInit {
       console.log(error.message)
     })
   }
+  excluirUsuario(id: number): void{
+    this.usuariosService.deleteUsuarioId(id);
+    document.location.reload();
+  }
 
 
 
