@@ -4,32 +4,48 @@
       "id": 1,
       "categoria": "restaurante",
       "titulo": "Super Burger",
-      "descricao_oferta": "Rodízio de Mini-hambúrger com opção de entrada.",
+      "descricao_oferta": "Rodï¿½zio de Mini-hambï¿½rger com opï¿½ï¿½o de entrada.",
       "anunciante": "Original Burger",
-      "valor": 15.90,
+      "valor": 15.9,
       "destaque": true,
       "total_vendido": 100,
       "imagens": [
-        { "url": "/assets/ofertas/1/img1.jpg" },
-        { "url": "/assets/ofertas/1/img2.jpg" },
-        { "url": "/assets/ofertas/1/img3.jpg" },
-        { "url": "/assets/ofertas/1/img4.jpg" }
+        {
+          "url": "/assets/ofertas/1/img1.jpg"
+        },
+        {
+          "url": "/assets/ofertas/1/img2.jpg"
+        },
+        {
+          "url": "/assets/ofertas/1/img3.jpg"
+        },
+        {
+          "url": "/assets/ofertas/1/img4.jpg"
+        }
       ]
     },
     {
       "id": 2,
       "categoria": "restaurante",
       "titulo": "Cozinha Mexicana",
-      "descricao_oferta": "Almoço ou Jantar com Rodízio Mexicano delicioso.",
+      "descricao_oferta": "Almoï¿½o ou Jantar com Rodï¿½zio Mexicano delicioso.",
       "anunciante": "Mexicana",
-      "valor": 10.90,
+      "valor": 10.9,
       "destaque": true,
       "total_vendido": 50,
       "imagens": [
-        { "url": "/assets/ofertas/2/img1.jpg" },
-        { "url": "/assets/ofertas/2/img2.jpg" },
-        { "url": "/assets/ofertas/2/img3.jpg" },
-        { "url": "/assets/ofertas/2/img4.jpg" }
+        {
+          "url": "/assets/ofertas/2/img1.jpg"
+        },
+        {
+          "url": "/assets/ofertas/2/img2.jpg"
+        },
+        {
+          "url": "/assets/ofertas/2/img3.jpg"
+        },
+        {
+          "url": "/assets/ofertas/2/img4.jpg"
+        }
       ]
     },
     {
@@ -38,14 +54,22 @@
       "titulo": "Pizzas Grandes",
       "descricao_oferta": "Pizza Grande, Mussarela, Marguerita ou outras!",
       "anunciante": "Nossa Pizza",
-      "valor": 15.00,
+      "valor": 15,
       "destaque": false,
       "total_vendido": 200,
       "imagens": [
-        { "url": "/assets/ofertas/3/img1.jpg" },
-        { "url": "/assets/ofertas/3/img2.jpg" },
-        { "url": "/assets/ofertas/3/img3.jpg" },
-        { "url": "/assets/ofertas/3/img4.jpg" }
+        {
+          "url": "/assets/ofertas/3/img1.jpg"
+        },
+        {
+          "url": "/assets/ofertas/3/img2.jpg"
+        },
+        {
+          "url": "/assets/ofertas/3/img3.jpg"
+        },
+        {
+          "url": "/assets/ofertas/3/img4.jpg"
+        }
       ]
     },
     {
@@ -53,17 +77,29 @@
       "categoria": "diversao",
       "titulo": "Coca-Cola",
       "descricao_oferta": "2 litros.",
-      "anunciante": "Estância das águas",
-      "valor": 5.90,
+      "anunciante": "Estï¿½ncia das ï¿½guas",
+      "valor": 5.9,
       "destaque": true,
       "total_vendido": 300,
       "imagens": [
-        { "url": "/assets/ofertas/4/img1.jpg" },
-        { "url": "/assets/ofertas/4/img2.jpg" },
-        { "url": "/assets/ofertas/4/img3.jpg" },
-        { "url": "/assets/ofertas/4/img4.jpg" },
-        { "url": "/assets/ofertas/4/img5.jpg" },
-        { "url": "/assets/ofertas/4/img6.jpg" }
+        {
+          "url": "/assets/ofertas/4/img1.jpg"
+        },
+        {
+          "url": "/assets/ofertas/4/img2.jpg"
+        },
+        {
+          "url": "/assets/ofertas/4/img3.jpg"
+        },
+        {
+          "url": "/assets/ofertas/4/img4.jpg"
+        },
+        {
+          "url": "/assets/ofertas/4/img5.jpg"
+        },
+        {
+          "url": "/assets/ofertas/4/img6.jpg"
+        }
       ]
     },
     {
@@ -72,12 +108,16 @@
       "titulo": "HotDog",
       "descricao_oferta": "Bateria de Kart de 30 minutos.",
       "anunciante": "Speed Kart",
-      "valor": 5.00,
+      "valor": 5,
       "destaque": false,
       "total_vendido": 100,
       "imagens": [
-        { "url": "/assets/ofertas/5/img1.jpg" },
-        { "url": "/assets/ofertas/5/img2.jpg" }
+        {
+          "url": "/assets/ofertas/5/img1.jpg"
+        },
+        {
+          "url": "/assets/ofertas/5/img2.jpg"
+        }
       ]
     },
     {
@@ -86,94 +126,44 @@
       "titulo": "Batata frita",
       "descricao_oferta": "Com recheio.",
       "anunciante": "Academia de Tiro",
-      "valor": 5.90,
+      "valor": 5.9,
       "destaque": false,
       "imagens": [
-        { "url": "/assets/ofertas/6/img1.jpg" },
-        { "url": "/assets/ofertas/6/img2.jpg" }
+        {
+          "url": "/assets/ofertas/6/img1.jpg"
+        },
+        {
+          "url": "/assets/ofertas/6/img2.jpg"
+        }
       ]
     }
   ],
   "usuarios": [
     {
       "id": 1,
-      "nome": "lucas",
-      "email": "lucasmaciel660@gmail.com",
-      "usuario": "Administrador",
-      "pass": "sadk234",
-      "cep": "62640-000",
-      "rua": "Rua tal de tal",
-      "cidade": "Pentecoste",
-      "ativo": true,
-      "imagens": [
-        { "url": "/assets/ofertas/6/img1.jpg" }
-      ],
-      "coordenadas": [
-        {
-          "latitude": "33333.33",
-          "longitude": "333.44"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "nome": "luzia",
-      "email": "luzia660@gmail.com",
-      "usuario": "Administrador",
-      "pass": "sadk234",
-      "cep": "62640-000",
-      "rua": "Pentecoste",
-      "cidade": "Fortaleza",
-      "ativo": true,
-      "imagens": [
-        { "url": "/assets/ofertas/6/img1.jpg" }
-      ]
-    },
-    {
-      "id": 3,
-      "nome": "Antonio",
-      "email": "Antonio660@gmail.com",
-      "usuario": "Funcionario",
-      "pass": "sadk234",
-      "cep": "62640-000",
-      "cidade": "Pentecoste",
-      "rua": "Rua tal de tal",
-      "ativo": false,
-      "imagens": [
-        { "url": "/assets/ofertas/6/img1.jpg" }
-      ]
-    },
-    {
-      "id": 4,
-      "nome": "Joao",
-      "email": "Joao660@gmail.com",
-      "usuario": "Funcionario",
-      "pass": "sadk234",
-      "cep": "62640-000",
-      "cidade": "Rio de Janeiro",
-      "rua": "Rua tal de tal",
-      "ativo": false,
-      "imagens": [
-        { "url": "/assets/ofertas/6/img1.jpg" }
-      ]
+      "rua": "Barreiros",
+      "nome": "Lucas",
+      "usuario": "lucasAdmin",
+      "senha": "62640000",
+      "cep": "Pentecoste",
+      "email": "lucasmaciel6690@gmail.com",
+      "cidade": "qny@m7Bi"
     }
   ],
-  "clientes": [
-
-  ],
+  "clientes": [],
   "produtos": [
     {
       "id": 1,
-      "nome": "Hambúrguer",
-      "descricao": "Pão, bife de hambúrguer 90g, salada e batata.",
+      "nome": "HambÃºrguer",
+      "descricao": "PÃ£o, bife de hambÃºrguer 90g, salada e batata.",
       "preco": 8.5,
       "categoria_id": 1,
       "quantidade_estoque": 18
     },
     {
       "id": 2,
-      "nome": "X-Búrguer",
-      "descricao": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
+      "nome": "X-BÃºrguer",
+      "descricao": "PÃ£o, bife de hambÃºrguer 90g, 1 fatia de queijo, salada e batata.",
       "preco": 10.5,
       "categoria_id": 1,
       "quantidade_estoque": 12
@@ -181,7 +171,7 @@
     {
       "id": 3,
       "nome": "X-Bacon",
-      "descricao": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, 2 fatia de bacon, salada e batata.",
+      "descricao": "PÃ£o, bife de hambÃºrguer 90g, 1 fatia de queijo, 2 fatia de bacon, salada e batata.",
       "preco": 12.5,
       "categoria_id": 1,
       "quantidade_estoque": 19
@@ -189,7 +179,7 @@
     {
       "id": 4,
       "nome": "X-Tudo",
-      "descricao": "Pão, 2 bifes de hambúrguer 90g, 2 fatias de queijo, 4 fatias de bacon, salada e batata.",
+      "descricao": "PÃ£o, 2 bifes de hambÃºrguer 90g, 2 fatias de queijo, 4 fatias de bacon, salada e batata.",
       "preco": 14.5,
       "categoria_id": 1,
       "quantidade_estoque": 5
@@ -214,7 +204,7 @@
       "id": 7,
       "nome": "Pizza",
       "descricao": "",
-      "preco": 13.00,
+      "preco": 13,
       "categoria_id": 1,
       "quantidade_estoque": 5
     },
@@ -222,15 +212,15 @@
       "id": 8,
       "nome": "Batata frita",
       "descricao": "",
-      "preco": 5.00,
+      "preco": 5,
       "categoria_id": 1,
       "quantidade_estoque": 30
     },
     {
       "id": 9,
-      "nome": "MilkShake(médio)",
+      "nome": "MilkShake(mÃ©dio)",
       "descricao": "",
-      "preco": 6.00,
+      "preco": 6,
       "categoria_id": 3,
       "quantidade_estoque": 15
     },
@@ -238,7 +228,7 @@
       "id": 10,
       "nome": "HotDog",
       "descricao": "",
-      "preco": 6.00,
+      "preco": 6,
       "categoria_id": 1,
       "quantidade_estoque": 20
     }
