@@ -232,14 +232,6 @@
       "quantidade_estoque": 5
     },
     {
-      "id": 8,
-      "nome": "Batata frita",
-      "descricao": "",
-      "preco": 5,
-      "categoria_id": 1,
-      "quantidade_estoque": 30
-    },
-    {
       "id": 9,
       "nome": "MilkShake(m�dio)",
       "descricao": "",
