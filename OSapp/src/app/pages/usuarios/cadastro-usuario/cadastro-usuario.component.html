@@ -1,0 +1,129 @@
+<div class="container mt-5">
+  <h3>Cadastro de Usuario</h3>
+  <form novalidade [formGroup]="formulario" (ngSubmit)="confirmarCadastro()">
+    <div class="row">
+      <div class="col-4">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Nome</label>
+          <input 
+          type="text" 
+          class="form-control " 
+          id="exampleInputEmail1" 
+          aria-describedby="emailHelp"
+          formControlName="Nome"
+          name="Nome"
+          >
+          <small *ngIf="formulario.get('Nome').valid && formulario.get('Nome').touched" class="form-text text-success">Ok</small>
+          <small *ngIf="!formulario.get('Nome').valid && formulario.get('Nome').touched" class="form-text text-danger">Nome inválido</small>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Usuario</label>
+          <input 
+          type="text" 
+          class="form-control"
+          name="Usuario"
+          formControlName="Usuario"
+          >
+          <small *ngIf="formulario.get('Usuario').valid && formulario.get('Usuario').touched" class="form-text text-success">Ok</small>
+          <small *ngIf="!formulario.get('Usuario').valid && formulario.get('Usuario').touched" class="form-text text-danger">Usuario inválido</small>
+        </div>
+      </div>
+      <div class="col-4">
+        <label for="selectSituacao">Situação do usuario</label>
+        <select 
+        class="form-control" 
+        id="selectSituacao"
+        name="Situacao"
+        formControlName="Ativo"
+        >
+          <option value="true" selected="">Ativo</option>
+          <option value="false" selected="">Inativo</option>
+        </select>
+        <small *ngIf="formulario.get('Ativo').valid && formulario.get('Ativo').touched" class="form-text text-success">Ok</small>
+          <small *ngIf="!formulario.get('Ativo').valid && formulario.get('Ativo').touched" class="form-text text-danger">Uma opção deve ser selecionada</small>
+      </div>
+      <div class="col-4">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Senha</label>
+          <input 
+          type="password" 
+          class="form-control"
+          name="Senha"
+          formControlName="Senha"
+          >
+          <small *ngIf="formulario.get('Senha').valid && formulario.get('Senha').touched" class="form-text text-success">Ok</small>
+          <small *ngIf="!formulario.get('Senha').valid && formulario.get('Senha').touched" class="form-text text-danger">Senha Inválida</small>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">E-mail</label>
+          <input 
+          type="text" 
+          class="form-control"
+          name="Email"
+          formControlName="Email"
+          >
+          <small *ngIf="formulario.get('Email').valid && formulario.get('Email').touched" class="form-text text-success">Ok</small>
+          <small *ngIf="!formulario.get('Email').valid && formulario.get('Email').touched" class="form-text text-danger">E-mail inválido</small>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">CEP</label>
+          <input 
+          type="text" 
+          class="form-control"
+          name="Cep"
+          formControlName="Cep"
+          >
+          <small *ngIf="formulario.get('Cep').valid && formulario.get('Cep').touched" class="form-text text-success">Ok</small>
+          <small *ngIf="!formulario.get('Cep').valid && formulario.get('Cep').touched" class="form-text text-danger">CEP inválido</small>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Rua</label>
+          <input 
+          type="text" 
+          class="form-control"
+          name="Rua"
+          formControlName="Rua"
+          >
+          <small *ngIf="formulario.get('Rua').valid && formulario.get('Rua').touched" class="form-text text-success">Ok</small>
+          <small *ngIf="!formulario.get('Rua').valid && formulario.get('Rua').touched" class="form-text text-danger">Rua inválida</small>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Cidade</label>
+          <input 
+          type="text" 
+          class="form-control"
+          name="Cidade"
+          formControlName="Cidade"
+          >
+          <small *ngIf="formulario.get('Cidade').valid && formulario.get('Cidade').touched" class="form-text text-success">Ok</small>
+          <small *ngIf="!formulario.get('Cidade').valid && formulario.get('Cidade').touched" class="form-text text-danger">Cidade Inválida</small>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      
+      <div class="col">
+        <button 
+        type="submit" 
+        class="btn btn-primary"
+        >Cadastrar</button>
+      </div>
+    </div>
+
+  </form>
+  
+</div>

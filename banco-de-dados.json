@@ -141,29 +141,52 @@
   "usuarios": [
     {
       "id": 1,
-      "rua": "Barreiros",
-      "nome": "Lucas",
-      "usuario": "lucasAdmin",
-      "senha": "62640000",
-      "cep": "Pentecoste",
-      "email": "lucasmaciel6690@gmail.com",
-      "cidade": "qny@m7Bi"
+      "nome": "lucas",
+      "email": "lucasmaciel660@gmail.com",
+      "usuario": "Administrador",
+      "pass": "sadk234",
+      "cep": "62640-000",
+      "rua": "Rua tal de tal",
+      "cidade": "Pentecoste",
+      "ativo": true,
+      "imagens": [
+        {
+          "url": "/assets/ofertas/6/img1.jpg"
+        }
+      ],
+      "coordenadas": [
+        {
+          "latitude": "33333.33",
+          "longitude": "333.44"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "rua": "Rua mansueto masinho",
+      "nome": "Luzia Luziene",
+      "usuario": "Lulu",
+      "senha": "12345678",
+      "cep": "62640000",
+      "email": "lu@gmail.com",
+      "cidade": "PENTECOSTE",
+      "ativo": "true"
     }
   ],
   "clientes": [],
   "produtos": [
     {
       "id": 1,
-      "nome": "Hambúrguer",
-      "descricao": "Pão, bife de hambúrguer 90g, salada e batata.",
+      "nome": "Hamb�rguer",
+      "descricao": "P�o, bife de hamb�rguer 90g, salada e batata.",
       "preco": 8.5,
       "categoria_id": 1,
       "quantidade_estoque": 18
     },
     {
       "id": 2,
-      "nome": "X-Búrguer",
-      "descricao": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
+      "nome": "X-B�rguer",
+      "descricao": "P�o, bife de hamb�rguer 90g, 1 fatia de queijo, salada e batata.",
       "preco": 10.5,
       "categoria_id": 1,
       "quantidade_estoque": 12
@@ -171,7 +194,7 @@
     {
       "id": 3,
       "nome": "X-Bacon",
-      "descricao": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, 2 fatia de bacon, salada e batata.",
+      "descricao": "P�o, bife de hamb�rguer 90g, 1 fatia de queijo, 2 fatia de bacon, salada e batata.",
       "preco": 12.5,
       "categoria_id": 1,
       "quantidade_estoque": 19
@@ -179,7 +202,7 @@
     {
       "id": 4,
       "nome": "X-Tudo",
-      "descricao": "Pão, 2 bifes de hambúrguer 90g, 2 fatias de queijo, 4 fatias de bacon, salada e batata.",
+      "descricao": "P�o, 2 bifes de hamb�rguer 90g, 2 fatias de queijo, 4 fatias de bacon, salada e batata.",
       "preco": 14.5,
       "categoria_id": 1,
       "quantidade_estoque": 5
@@ -218,7 +241,7 @@
     },
     {
       "id": 9,
-      "nome": "MilkShake(médio)",
+      "nome": "MilkShake(m�dio)",
       "descricao": "",
       "preco": 6,
       "categoria_id": 3,
