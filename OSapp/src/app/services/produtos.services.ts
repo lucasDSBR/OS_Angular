@@ -35,5 +35,11 @@ export class ProdutosServices {
             .map((resposta: Response) => resposta.json());
 
     }
+
+    public deletProdutoId(id: number): Promise<Produtos[]>{
+        return this.http.delete(`${this.url_api}/${id}`)
+        .toPromise()
+        .then((resposta: Response) => resposta.json());
+    }
     
 }

@@ -8,7 +8,19 @@
           <a class="nav-link" routerLinkActive="active"  routerLink="">Início</a>
         </li>
         <li>
-          <a class="nav-link" routerLinkActive="active" href="/usuarios">Usuarios</a>
+          <a class="nav-link" routerLinkActive="active" href="/usuarios">Pedidos</a>
+        </li>
+        <li>
+          <a class="nav-link" routerLinkActive="active" href="/usuarios">Clientes</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Usuarios
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" [routerLink]="['/usuarios']">Lista</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/cadastro-usuario']">Cadastrar</a></li>
+          </ul>
         </li>
         <li>
           <a class="nav-link" routerLinkActive="active" href="/produtos">Produtos</a>

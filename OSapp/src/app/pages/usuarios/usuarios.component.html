@@ -3,14 +3,11 @@
     <div class="col-2">
       <select id="categoria" class="form-control form-control-sm">
         <option value="1">Ativo</option>
-        <option value="0">Desativado</option>
+        <option value="0">Inativo</option>
       </select>
     </div>
     <div class="col">
-      <button type="button" class="btn btn-outline-success" (click)="Situcao()">Buscar</button>
-    </div>
-    <div class="col-2">
-      <a [routerLink]="['/cadastro-usuario']" class="btn btn-outline-success">Novo Usuario</a>
+      <button type="button" class="btn btn-outline-primary btn-sm" (click)="Situcao()">Buscar</button>
     </div>
   </div>
   <table class="table">
@@ -28,10 +25,10 @@
         <th scope="row">{{usuario.id}}</th>
         <td>{{usuario.nome}}</td>
         <td>{{usuario.email}}</td>
-        <td>{{usuario.ativo == false? 'Desativo': 'Ativo'}}</td>
+        <td>{{usuario.ativo == false? 'Inativo': 'Ativo'}}</td>
         <td>
-          <button class="btn btn-outline-danger m-2" (click)="excluirUsuario(usuario.id);">Excluir</button>
-          <button [routerLink]="['/usuarios-detalhes', usuario.id]" class="btn btn-outline-primary m-2">Detalhes</button>
+          <button class="btn btn-outline-danger btn-sm m-2" (click)="excluirUsuario(usuario.id);">Excluir</button>
+          <button [routerLink]="['/usuarios-detalhes', usuario.id]" class="btn btn-outline-primary btn-sm m-2">Detalhes</button>
         </td>
       </tr>
     </tbody>

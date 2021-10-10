@@ -73,4 +73,9 @@ export class ProdutosComponent implements OnInit, OnDestroy {
   ngOnDestroy(){
 
   }
+
+  excluirProduto(id: number): void{
+    this.produtosService.deletProdutoId(id)
+    document.location.reload();
+  }
 }

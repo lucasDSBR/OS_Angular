@@ -44,7 +44,7 @@
           <td>{{produto.preco | currency: 'BRL': true }}</td>
           <td style="text-align: center; vertical-align: middle;">
             <!--Enviar caminho com id do produto-->
-            <button class="btn btn-outline-danger btn-sm m-2">Excluir</button>
+            <button class="btn btn-outline-danger btn-sm m-2" (click)="excluirProduto(produto.id);">Excluir</button>
             <button class="btn btn-outline-warning btn-sm m-2">Editar</button>
             <button [routerLink]="['/produtos-detalhes', produto.id]" class="btn btn-outline-primary btn-sm m-2">Detalhes</button>
           </td>
