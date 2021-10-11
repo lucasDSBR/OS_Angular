@@ -23,7 +23,6 @@ export class CadastroClientesComponent implements OnInit {
     'Complemento': new FormControl(null, [Validators.required, Validators.minLength(3), Validators.maxLength(120)]),
     'Genero': new FormControl(null, [Validators.required, Validators.minLength(3), Validators.maxLength(120)]),
     'Bairro': new FormControl(null, [Validators.required, Validators.minLength(3), Validators.maxLength(120)]),
-    'Coordenadas': new FormControl(null, [Validators.required, Validators.minLength(3), Validators.maxLength(120)]),
     'Cpf': new FormControl(null, [Validators.required, Validators.minLength(3), Validators.maxLength(120)]),
     'Geo': new FormControl(null, [Validators.required, Validators.minLength(3), Validators.maxLength(120)])
   });
@@ -46,7 +45,6 @@ export class CadastroClientesComponent implements OnInit {
       this.formulario.get('Email').markAsTouched()
       this.formulario.get('Cidade').markAsTouched()
       this.formulario.get('Situacao').markAsTouched()
-      this.formulario.get('Coordenadas').markAsTouched()
       this.formulario.get('Bairro').markAsTouched()
       this.formulario.get('Complemento').markAsTouched()
       this.formulario.get('Cpf').markAsTouched()
@@ -62,7 +60,7 @@ export class CadastroClientesComponent implements OnInit {
         this.formulario.value.Rua,
         this.formulario.value.Bairro,
         this.formulario.value.Cidade,
-        this.formulario.value.Coordenadas,
+        this.formulario.value.Ceo,
         this.formulario.value.Complemento,
         this.formulario.value.Situacao,
         this.formulario.value.Genero
