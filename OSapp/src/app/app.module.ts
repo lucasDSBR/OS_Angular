@@ -20,6 +20,9 @@ import { UsuariosDetalhesComponent } from './pages/usuarios/usuarios-detalhes/us
 
 import { DescricaoReduzida } from './util/descricao-reduzida.pipe';
 import { CadastroUsuarioComponent } from './pages/usuarios/cadastro-usuario/cadastro-usuario.component';
+import { ClientesComponent } from './pages/clientes/clientes.component';
+import { CadastroClientesComponent } from './pages/clientes/cadastro-clientes/cadastro-clientes.component';
+import { ClientesDetalhesComponent } from './pages/clientes/clientes-detalhes/clientes-detalhes.component';
 
 registerLocaleData(localePt);
 
@@ -34,7 +37,10 @@ registerLocaleData(localePt);
     ProdutosDetalhesComponent,
     UsuariosDetalhesComponent,
     DescricaoReduzida,
-    CadastroUsuarioComponent
+    CadastroUsuarioComponent,
+    ClientesComponent,
+    CadastroClientesComponent,
+    ClientesDetalhesComponent
   ],
   imports: [
     BrowserModule,

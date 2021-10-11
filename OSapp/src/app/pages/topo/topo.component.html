@@ -8,14 +8,23 @@
           <a class="nav-link" routerLinkActive="active"  routerLink="">Início</a>
         </li>
         <li>
-          <a class="nav-link" routerLinkActive="active" href="/usuarios">Pedidos</a>
+          <a class="nav-link" routerLinkActive="active">Vendas</a>
         </li>
         <li>
-          <a class="nav-link" routerLinkActive="active" href="/usuarios">Clientes</a>
+          <a class="nav-link" routerLinkActive="active">Pedidos</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Usuarios
+            Clientes
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" [routerLink]="['/clientes']">Lista</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/cadastro-clientes']">Cadastrar</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Funcionarios
           </a>
           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
             <li><a class="dropdown-item" [routerLink]="['/usuarios']">Lista</a></li>
