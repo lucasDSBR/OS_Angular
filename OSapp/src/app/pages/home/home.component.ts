@@ -13,8 +13,8 @@ import { Usuarios } from '../../shared/usuarios.model';
 })
 export class HomeComponent implements OnInit {
 
-  public usuarios: Usuarios[];
-  public produtos: Produtos[];
+  public usuarios;
+  public produtos;
   constructor(
     private produtosServices: ProdutosServices,
     private usuariosService: UsuariosService
@@ -24,14 +24,14 @@ export class HomeComponent implements OnInit {
     
     this.produtosServices.getAllProdutos() 
     .then((produtos: Produtos[]) => {
-      this.produtos = produtos;
+      this.produtos = produtos.length;
     })    
     .catch((err: any) => {
       //retorno do erro
     });
     this.usuariosService.getUsuarios()
     .then((usuarios: Usuarios[]) => {
-      this.usuarios = usuarios;
+      this.usuarios = usuarios.length;
     })
     .catch((err: any) => {
       //retirno erro

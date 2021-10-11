@@ -63,7 +63,8 @@ export class CadastroClientesComponent implements OnInit {
         this.formulario.value.Ceo,
         this.formulario.value.Complemento,
         this.formulario.value.Situacao,
-        this.formulario.value.Genero
+        this.formulario.value.Genero,
+        this.formulario.value.Cpf
       )
       //console.log(dataUser)
       this.cadastroCliente.postCliente(dataUser)

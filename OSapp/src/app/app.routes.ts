@@ -21,5 +21,6 @@ export const ROUTES: Routes = [
     {path: "produtos-detalhes/:id", component: ProdutosDetalhesComponent},
     {path: "clientes", component: ClientesComponent},
     {path: "clientes-detalhes", component: ClientesDetalhesComponent},
-    {path: "cadastro-clientes", component: CadastroClientesComponent},
+    {path: "clientes-detalhes/id", component: ClientesDetalhesComponent},
+    {path: "cadastro-clientes", component: CadastroClientesComponent}
 ]

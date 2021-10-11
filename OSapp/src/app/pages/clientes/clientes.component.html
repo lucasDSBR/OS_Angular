@@ -20,7 +20,8 @@
         <td>{{cliente.situacao == false? 'Inativo': 'Ativo'}}</td>
         <td>
           <button class="btn btn-outline-danger btn-sm m-2" (click)="excluirCliente(cliente.id);">Excluir</button>
-          <button [routerLink]="['/usuarios-detalhes', cliente.id]" class="btn btn-outline-primary btn-sm m-2">Detalhes</button>
+          <button class="btn btn-outline-warning btn-sm m-2">Editar</button>
+          <button [routerLink]="['/clientes-detalhes', cliente.id]" class="btn btn-outline-primary btn-sm m-2">Detalhes</button>
         </td>
       </tr>
     </tbody>

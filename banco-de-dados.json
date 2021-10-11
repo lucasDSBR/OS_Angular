@@ -177,15 +177,16 @@
     {
       "id": 1,
       "nome": "Lucas",
-      "email": "lucasmaciel6690@gmail.com",
+      "email": "Email",
       "pass": "qny@m7BiqMekhfX",
-      "cep": "62640-000",
-      "rua": "asdasdasd",
-      "bairro": "sadsadasdas",
-      "cidade": "PENTECOSTE",
-      "complemento": "sadasdadsa",
-      "situacao": "true",
-      "genero": "true"
+      "cep": "cepcepcep",
+      "rua": "ruarua",
+      "bairro": "bairro",
+      "cidade": "cidade",
+      "complemento": "complemento",
+      "situacao": "false",
+      "genero": "true",
+      "cpf": "cpfcpf"
     }
   ],
   "produtos": [
