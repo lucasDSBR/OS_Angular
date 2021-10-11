@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row m-3">
+
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">Nome</th>
+        <th scope="col">E-mail</th>
+        <th scope="col">Status</th>
+        <th scope="col">Opções</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let cliente of clientes">
+        <th scope="row">{{cliente.id}}</th>
+        <td>{{cliente.nome}}</td>
+        <td>{{cliente.email}}</td>
+        <td>{{cliente.situacao == false? 'Inativo': 'Ativo'}}</td>
+        <td>
+          <button class="btn btn-outline-danger btn-sm m-2" (click)="excluirCliente(cliente.id);">Excluir</button>
+          <button [routerLink]="['/usuarios-detalhes', cliente.id]" class="btn btn-outline-primary btn-sm m-2">Detalhes</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+</div>
