@@ -11,7 +11,8 @@ export class CadastroCliente {
         public coordenadas: string,
         public complemento: string,
         public situacao: boolean,
-        public genero: string
+        public genero: string,
+        public cpf: string
     ){}
 
 }
