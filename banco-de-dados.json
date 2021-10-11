@@ -173,7 +173,21 @@
       "ativo": "true"
     }
   ],
-  "clientes": [],
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Lucas",
+      "email": "lucasmaciel6690@gmail.com",
+      "pass": "qny@m7BiqMekhfX",
+      "cep": "62640-000",
+      "rua": "asdasdasd",
+      "bairro": "sadsadasdas",
+      "cidade": "PENTECOSTE",
+      "complemento": "sadasdadsa",
+      "situacao": "true",
+      "genero": "true"
+    }
+  ],
   "produtos": [
     {
       "id": 1,
