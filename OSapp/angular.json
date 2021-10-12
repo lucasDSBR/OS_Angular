@@ -84,6 +84,7 @@
               "styles.css"
             ],
             "scripts": [
+              "../node_modules/angular-plotly.js/fesm2015/angular-plotly.js.js",
               "../node_modules/tether/dist/js/tether.min.js",
               "../node_modules/jquery/dist/jquery.min.js",
               "../node_modules/bootstrap/dist/js/bootstrap.min.js"
