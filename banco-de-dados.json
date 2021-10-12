@@ -162,13 +162,13 @@
       ]
     },
     {
-      "id": 4,
-      "rua": "Rua mansueto masinho",
-      "nome": "Luzia Luziene",
-      "usuario": "Lulu",
-      "senha": "12345678",
-      "cep": "62640000",
-      "email": "lu@gmail.com",
+      "id": 5,
+      "rua": "Rua de teste",
+      "nome": "Lucas",
+      "usuario": "lucas34",
+      "senha": "LUCAS123",
+      "cep": "62640-000",
+      "email": "lucasmaciel6690@gmail.com",
       "cidade": "PENTECOSTE",
       "ativo": "true"
     }
@@ -192,32 +192,24 @@
   "produtos": [
     {
       "id": 1,
-      "nome": "Hamb�rguer",
-      "descricao": "P�o, bife de hamb�rguer 90g, salada e batata.",
+      "nome": "Hamburguer",
+      "descricao": "Pao, bife de hamburguer 90g, salada e batata.",
       "preco": 8.5,
       "categoria_id": 1,
       "quantidade_estoque": 18
     },
     {
       "id": 2,
-      "nome": "X-B�rguer",
-      "descricao": "P�o, bife de hamb�rguer 90g, 1 fatia de queijo, salada e batata.",
+      "nome": "X-Burguer",
+      "descricao": "Pao, bife de hamburguer 90g, 1 fatia de queijo, salada e batata.",
       "preco": 10.5,
       "categoria_id": 1,
       "quantidade_estoque": 12
     },
     {
-      "id": 3,
-      "nome": "X-Bacon",
-      "descricao": "P�o, bife de hamb�rguer 90g, 1 fatia de queijo, 2 fatia de bacon, salada e batata.",
-      "preco": 12.5,
-      "categoria_id": 1,
-      "quantidade_estoque": 19
-    },
-    {
       "id": 4,
       "nome": "X-Tudo",
-      "descricao": "P�o, 2 bifes de hamb�rguer 90g, 2 fatias de queijo, 4 fatias de bacon, salada e batata.",
+      "descricao": "Pao, 2 bifes de hamburguer 90g, 2 fatias de queijo, 4 fatias de bacon, salada e batata.",
       "preco": 14.5,
       "categoria_id": 1,
       "quantidade_estoque": 5
@@ -248,7 +240,7 @@
     },
     {
       "id": 9,
-      "nome": "MilkShake(m�dio)",
+      "nome": "MilkShake(médio)",
       "descricao": "",
       "preco": 6,
       "categoria_id": 3,
