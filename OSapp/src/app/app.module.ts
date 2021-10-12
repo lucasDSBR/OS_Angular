@@ -8,6 +8,9 @@ import localePt from '@angular/common/locales/pt';
 //import { FormsModule } from '@angular/forms';
 //iMPOPRTANDO ROTAS
 import { ROUTES } from './app.routes';
+import * as PlotlyJS from 'plotly.js-dist-min';
+import { PlotlyModule } from 'angular-plotly.js';
+import { CommonModule } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { TopoComponent } from './pages/topo/topo.component';
@@ -24,7 +27,7 @@ import { ClientesComponent } from './pages/clientes/clientes.component';
 import { CadastroClientesComponent } from './pages/clientes/cadastro-clientes/cadastro-clientes.component';
 import { ClientesDetalhesComponent } from './pages/clientes/clientes-detalhes/clientes-detalhes.component';
 
-registerLocaleData(localePt);
+PlotlyModule.plotlyjs = PlotlyJS;
 
 @NgModule({
   declarations: [
@@ -47,7 +50,10 @@ registerLocaleData(localePt);
     HttpModule,
     RouterModule.forRoot(ROUTES),
     //FormsModule
-    ReactiveFormsModule 
+    ReactiveFormsModule,
+    CommonModule,
+    PlotlyModule
+    
   ],
   providers: [{ provide: LOCALE_ID, useValue: 'pt-BR'}],
   bootstrap: [AppComponent]

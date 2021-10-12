@@ -262,5 +262,85 @@
       "categoria_id": 1,
       "quantidade_estoque": 20
     }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "produtos": [
+        {
+          "id": 1,
+          "nome": "HotDog",
+          "descricao": "",
+          "preco": 6,
+          "categoria_id": 1,
+          "quantidadeComprada": 2
+        },
+        {
+          "id": 2,
+          "nome": "Coca-Cola 600",
+          "descricao": "",
+          "preco": 5,
+          "categoria_id": 1,
+          "quantidadeComprada": 1
+        }
+      ],
+      "dataCompra": "12/10/2020",
+      "horaCompra": "12:29:00",
+      "formaPagamento": 1,
+      "cpfCliente": "23230232302",
+      "statusPedido": false
+    },
+    {
+      "id": 2,
+      "produtos": [
+        {
+          "id": 1,
+          "nome": "HotDog",
+          "descricao": "",
+          "preco": 6,
+          "categoria_id": 1,
+          "quantidadeComprada": 2
+        },
+        {
+          "id": 2,
+          "nome": "Fanta-Uva 600",
+          "descricao": "",
+          "preco": 5,
+          "categoria_id": 1,
+          "quantidadeComprada": 2
+        }
+      ],
+      "dataCompra": "12/10/2020",
+      "horaCompra": "12:29:00",
+      "formaPagamento": 1,
+      "cpfCliente": "23424234",
+      "statusPedido": false
+    },
+    {
+      "id": 3,
+      "produtos": [
+        {
+          "id": 1,
+          "nome": "Batata Frita",
+          "descricao": "",
+          "preco": 3,
+          "categoria_id": 1,
+          "quantidadeComprada": 2
+        },
+        {
+          "id": 2,
+          "nome": "Fanta-Laranja 600",
+          "descricao": "",
+          "preco": 5,
+          "categoria_id": 1,
+          "quantidadeComprada": 2
+        }
+      ],
+      "dataCompra": "12/10/2020",
+      "horaCompra": "12:29:00",
+      "formaPagamento": 1,
+      "cpfCliente": "3242454322435",
+      "statusPedido": true
+    }
   ]
 }
