@@ -72,17 +72,17 @@ export class HomeComponent implements OnInit {
               labels: ['Vendas concretizadas', 'Pedidos pendentes'],
               type: 'pie' },
         ],
-        layout: {width: 900, height: 700, title: 'Gráfico de vendas'}
+        layout: {width: 500, height: 400, title: 'Gráfico de vendas'}
         
       };
 
       public graph2 = {
         data: [{
-          x:['janeiro', 'Fevereiro', 'Março', 'Abriu', 'Maio', 'Junho', 'Julho', 'Agosto', 'Outubro', 'Novembro', 'Dezembro'], 
-          y: [2, 130, 32, 1, 1, 2, 3,3, 4, 4, 5, 300],
+          x:['janeiro', 'Fevereiro', 'Março', 'Abriu', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro','Outubro', 'Novembro', 'Dezembro'], 
+          y: [2, 130, 32, 1, 1, 2, 100, 3, 4, 4, 5, 300],
           type: 'bar'}
         ],
-        layout: {width: 900, height: 700, title: 'Gráfico de vendas'}
+        layout: {width: 600, height: 400, title: 'Meses que obtiveram mais vendas'}
         
       };
 

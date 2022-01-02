@@ -26,7 +26,7 @@ import { CadastroUsuarioComponent } from './pages/usuarios/cadastro-usuario/cada
 import { ClientesComponent } from './pages/clientes/clientes.component';
 import { CadastroClientesComponent } from './pages/clientes/cadastro-clientes/cadastro-clientes.component';
 import { ClientesDetalhesComponent } from './pages/clientes/clientes-detalhes/clientes-detalhes.component';
-
+registerLocaleData(localePt);
 PlotlyModule.plotlyjs = PlotlyJS;
 
 @NgModule({
